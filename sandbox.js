@@ -1,0 +1,12 @@
+console.log('up and working!!');
+var s = 10;
+console.log(s);
+var y = 10.1;
+console.warn("the number type:", y);
+var z = true;
+console.error("boolean type", z);
+var data = [10, 20, 30];
+data.push(80);
+console.log(data.length);
+data.forEach(function (num) { return console.log(num); });
+console.log(data[0] + data[1]);
